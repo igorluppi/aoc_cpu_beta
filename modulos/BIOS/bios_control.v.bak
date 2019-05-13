@@ -1,0 +1,35 @@
+module bios(write_clock, read_clock, reset, biosAddress, out);
+	
+	parameter DATA_WIDTH = 32; // X bits 
+	parameter BIOS_BITS = 10; // X instructions
+	localparam BIOS_SIZE = 2**BIOS_BITS; 
+	
+	input write_clock, read_clock, reset;
+	input [DATA_WIDTH-1:0] biosAddress;  
+	
+	output reg [DATA_WIDTH-1:0] out;
+	
+	reg [DATA_WIDTH-1:0] BIOS [BIOS_SIZE-1:0]; // BIOS_SIZE words of 32-bit memory
+	
+	
+	always @ (posedge write_clock)
+	begin
+		
+		if (reset) begin
+			BIOS[0] = 32'b000101_00000_11011_0000000000000000; // li $global 0
+			
+		end
+
+		
+	end
+	
+	always @ (posedge read_clock) //50Mhz clock
+	begin
+		
+		out <= BIOS[biosAddress];
+		
+	end
+	
+	
+	
+endmodule

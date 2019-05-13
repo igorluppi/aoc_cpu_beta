@@ -1,0 +1,19 @@
+module out_module_control(in, regs, binary, outputControl, turnOff);
+	
+	input [31:0] in, regs;
+	input [1:0] outControl;
+	output reg [31:0] binaryS;
+	output reg turnOff
+	
+	always @ (*) begin
+		case(outControl)
+			0: 
+			begin
+				binary = in
+			end
+		
+		endcase
+			
+	end
+	
+endmodule

@@ -1,0 +1,12 @@
+module recv_control(clock, opcode, arduino_sig_rcv, fpga_sig, rcv_flag)
+
+parameter OPCODE_RCV = <CONSTANT_PARAM>; // opcode padrao do receive
+
+input clock, arduino_sig_rcv;
+output fpga_sig, rcv_flag;
+
+oneshot pulser(clock, arduino_sig_rcv, rcv_flag); // trata o sinal para permitir somente um receive por send
+
+assign fpga_sig = (opcode == OPCODE_RCV) ? 1'b1 : 1'b0; // verifica se a instrucao atual e de receive
+
+endmodule

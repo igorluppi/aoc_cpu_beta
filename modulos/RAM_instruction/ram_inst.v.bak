@@ -1,0 +1,30 @@
+module ram_inst(clock, memAddress, out);
+	
+	parameter RAM_SIZE = 65536; // 16 bits 
+	parameter ADDRESS_SIZE = 10; // X bits 
+	
+	input clock;
+	input [ADDRESS_SIZE-1:0] memAddress;
+	reg [ADDRESS_SIZE-1:0] RAM_INST [0:RAM_SIZE-1]; // RAM_SIZE words of 32-bit memory
+	
+	
+	
+	always @ (posedge clock)
+	begin
+		
+		if (memWrite)
+		begin
+			RAM[memAddress] = data;
+		end
+		
+		if (memRead)
+		begin
+			dataOut = RAM[memAddress];
+		end
+		
+		memAddressReg = memAddress;
+	
+	end
+	
+	
+endmodule

@@ -1,0 +1,72 @@
+module cpu(clock, reset, button_in, button_out, switchSide, switches, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7, in_on, out_on);
+	
+	/*Controle*/
+	wire [1:0] regDest;
+	wire regWrite, extSide, twoComplement, regAlu, memWrite, memRead;
+	wire [1:0] jumpOp, PCDest, outputControl;
+	wire [2:0] resultDest;
+    wire [1:0] stackOp;
+	/*Controle*/
+	
+	input clock, reset, button_in, button_out, switchSide;
+	input [15:0] switches;
+	output [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7;
+	output in_on, out_on;
+	
+	wire [31:0] PCin, PCout, nextPC;
+	wire [31:0] instrucao;
+	wire [4:0] rd;
+	wire [31:0] dataReg, regs1, regs2;
+	wire [31:0] imediatoExt;
+	wire [31:0] dataMemOut;
+    wire [31:0] dataStackOut;
+	wire [31:0] aluIn2, aluOut;
+	wire [5:0] funct;
+	wire branchCondition;
+	wire [31:0] jumpOut;
+	wire [31:0] branchOut;
+	wire [15:0] switchesOut;
+	wire [31:0] switchesOutExt;
+	wire [31:0] switchesExt;
+	wire [31:0] binaryOut;
+	
+	
+	program_counter PC(clock, reset, PCin, PCout, nextPC);
+	
+	ram_inst ramInstrucoes(clock, reset, PCout, instrucao);
+	// instrucao[31:26] instrucao[25:21] instrucao[20:16]
+	
+	mux_regs muxRegs(instrucao[20:16], instrucao[15:11], rd, regDest);
+	
+	registers regs(clock, reset, instrucao[25:21], instrucao[20:16], rd, dataReg, regs1, regs2, regWrite, stackOp);
+	
+	extensor ext(instrucao[15:0], imediatoExt, extSide, twoComplement);
+	
+	alu_control AluControl(instrucao[31:26], instrucao[5:0], funct);
+	
+	mux_2 muxAlu(regs2, imediatoExt, aluIn2, regAlu);
+	
+	alu Alu(regs1, aluIn2, aluOut, instrucao[10:6], funct, branchCondition);
+
+    stack_data stack(clock, regs1, regs2, dataStackOut, stackOp);
+	
+	ram_data ram(clock, aluOut, regs2, dataMemOut, memWrite, memRead);
+	
+	mux_jump muxJump(PCout, regs1, instrucao[25:0], jumpOut, jumpOp);
+	
+	branch_control branchControl(PCout, nextPC, imediatoExt, branchOut, branchCondition);
+	
+	mux_4 muxPC(nextPC, PCout, branchOut, jumpOut, PCin, PCDest);
+	
+	in_module moduleIN(switches, button_in, switchSide, switchesExt, switchesOutExt);
+	
+	out_module_control outControl(switchesExt, regs1, binaryOut, outputControl, in_on, out_on);
+	
+	out_module moduleOut(binaryOut, in_on, out_on, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7);
+	
+	mux_6 muxRS(aluOut, imediatoExt, dataMemOut, switchesOutExt, nextPC, dataStackOut, dataReg, resultDest);
+	
+	control_unit UC(instrucao[31:26], instrucao[5:0], button_in, button_out, switchSide, regDest, regWrite, extSide, twoComplement, regAlu, memWrite, memRead, jumpOp, PCDest, outputControl, resultDest, stackOp);
+	
+	
+endmodule

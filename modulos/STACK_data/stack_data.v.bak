@@ -1,0 +1,26 @@
+module stack_data(clock, stackPointer, data, dataOut, stackOp);
+
+	parameter RAM_BITS = 32; // X bits 
+	localparam RAM_SIZE = 2^RAM_BITS; // X instructions
+    
+	
+	input [31:0] data;
+	input [RAM_BITS-1:0] stackPointer;
+    input [1:0] stackOp;
+	input clock;
+	output [31:0] dataOut;
+	
+	reg [31:0] STACK [0:1]; // RAM_SIZE words of 32-bit memory
+	
+	always @ (posedge clock)
+	begin
+		
+		if (stackOp == 2'b01) begin
+			STACK[stackPointer] = data;
+		end
+	
+	end
+	
+	assign dataOut = (stackOp != 2'b10 || stackPointer == 0) ? 0 : STACK[stackPointer-1];
+	
+endmodule

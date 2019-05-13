@@ -1,0 +1,18 @@
+module mux_regs(rt, rd, out, flag);
+	
+	input [4:0] rt, rd;
+	input flag;  
+	
+	output reg [4:0] out;
+	
+	always @ (rt, rd, flag)
+	begin
+		if(flag) begin
+			out = rt;
+		end
+		else begin
+			out = rd;
+		end
+	end
+	
+endmodule

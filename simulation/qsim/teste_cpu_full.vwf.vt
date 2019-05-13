@@ -1,0 +1,178 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/05/2018 11:43:24"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          loop32i
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module loop32i_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clock;
+reg n_button_in;
+reg n_button_out;
+reg n_reset;
+reg switchSide;
+reg [15:0] switches;
+// wires                                               
+wire [6:0] HEX0;
+wire [6:0] HEX1;
+wire [6:0] HEX2;
+wire [6:0] HEX3;
+wire [6:0] HEX4;
+wire [6:0] HEX5;
+wire [6:0] HEX6;
+wire [6:0] HEX7;
+wire in_on;
+wire out_on;
+
+// assign statements (if any)                          
+loop32i i1 (
+// port map - connection between master ports and signals/registers   
+	.HEX0(HEX0),
+	.HEX1(HEX1),
+	.HEX2(HEX2),
+	.HEX3(HEX3),
+	.HEX4(HEX4),
+	.HEX5(HEX5),
+	.HEX6(HEX6),
+	.HEX7(HEX7),
+	.clock(clock),
+	.in_on(in_on),
+	.n_button_in(n_button_in),
+	.n_button_out(n_button_out),
+	.n_reset(n_reset),
+	.out_on(out_on),
+	.switchSide(switchSide),
+	.switches(switches)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// clock
+initial
+begin
+	clock = 1'b0;
+	clock = #10000 1'b1;
+	clock = #90000 1'b0;
+	clock = #100000 1'b1;
+	# 100000;
+	repeat(3)
+	begin
+		clock = 1'b0;
+		clock = #100000 1'b1;
+		# 100000;
+	end
+	clock = 1'b0;
+end 
+// switches[ 15 ]
+initial
+begin
+	switches[15] = 1'b0;
+end 
+// switches[ 14 ]
+initial
+begin
+	switches[14] = 1'b0;
+end 
+// switches[ 13 ]
+initial
+begin
+	switches[13] = 1'b0;
+end 
+// switches[ 12 ]
+initial
+begin
+	switches[12] = 1'b0;
+end 
+// switches[ 11 ]
+initial
+begin
+	switches[11] = 1'b0;
+end 
+// switches[ 10 ]
+initial
+begin
+	switches[10] = 1'b0;
+end 
+// switches[ 9 ]
+initial
+begin
+	switches[9] = 1'b0;
+end 
+// switches[ 8 ]
+initial
+begin
+	switches[8] = 1'b0;
+end 
+// switches[ 7 ]
+initial
+begin
+	switches[7] = 1'b0;
+end 
+// switches[ 6 ]
+initial
+begin
+	switches[6] = 1'b0;
+end 
+// switches[ 5 ]
+initial
+begin
+	switches[5] = 1'b0;
+end 
+// switches[ 4 ]
+initial
+begin
+	switches[4] = 1'b0;
+end 
+// switches[ 3 ]
+initial
+begin
+	switches[3] = 1'b0;
+end 
+// switches[ 2 ]
+initial
+begin
+	switches[2] = 1'b0;
+end 
+// switches[ 1 ]
+initial
+begin
+	switches[1] = 1'b0;
+end 
+// switches[ 0 ]
+initial
+begin
+	switches[0] = 1'b0;
+end 
+
+// switchSide
+initial
+begin
+	switchSide = 1'b0;
+end 
+endmodule
+

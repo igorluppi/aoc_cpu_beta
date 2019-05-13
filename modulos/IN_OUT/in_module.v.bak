@@ -1,0 +1,14 @@
+module in_module(clock);
+	
+	input clock;
+	input [5:0] opcode, funct;
+	output reg [5:0] functOut;
+	
+	
+
+
+	always@(posedge clock)
+	begin
+		
+	end
+endmodule

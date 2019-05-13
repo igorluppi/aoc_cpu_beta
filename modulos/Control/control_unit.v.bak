@@ -1,0 +1,43 @@
+module control_unit (opcode, funct, button_in, button_out, regDest, regWrite, extSide, twoComplement, regAlu, memWrite, memRead, jumpOp, PCDest, outputControl, resultDest);
+	
+	input [5:0] opcode, funct;
+	input button_in, button_out;
+	
+	output reg regDest, regWrite, extSide, twoComplement, regAlu, memWrite, memRead, jumpOp;
+	output reg [1:0] PCDest, outputControl;
+	output reg [2:0] resultDest;
+
+
+	always@(*)
+	begin
+		
+		case(opcode)
+			6'b000000: begin
+				
+				case(funct)
+					6'b000000: begin
+						regDest = 1'b0;
+						regWrite = 1'b1;
+						extSide = 1'bx;
+						twoComplement = 1'bx;
+						regAlu = 1'bx;
+						memWrite = 1'b0;
+						memRead = 1'b0;
+						jumpOp = 
+						PCDest
+						outputControl
+						resultDest
+					end
+					
+				endcase
+				
+			end
+        
+			default:
+						begin
+							rs = 0;
+							branch = 0;
+						end
+		endcase
+	end
+endmodule

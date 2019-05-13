@@ -1,0 +1,23 @@
+module registers(rs, rt, rd, out1, out2, data, regWrite, clock, reset);
+	
+	input [4:0] rs, rt, rd;
+	input [31:0] out1, out2, data;
+	input regWrite, clock, reset;
+
+	reg [31:0] registers[31:0];
+
+	always @ (posedge clock) begin
+		if (reset) begin
+		
+		end
+		
+		if (regWrite) begin
+			registers[rd] = data;
+		end
+		
+	end
+
+	assign out1 = registers[rs];
+	assign out2 = registers[rt];
+	
+endmodule

@@ -1,0 +1,26 @@
+module program_counter(PCin, PCout, nextPC);
+	
+	parameter ADDRESS_INCREMENT= 1'b1;
+	
+	input [31:0] PCin;
+	reg [31:0] PC;
+	
+	output reg [31:0] PCout, nextPCout;
+	
+	integer initialClock = 1;
+	
+	always @ (posedge clock)
+	begin
+		if(initialClock) begin
+			PC = 0;
+			initialClock = 0;
+		end
+		else
+			PC = PCin;
+		end
+		PCout = PC;
+		nextPC = PC + ADDRESS_INCREMENT;
+
+	end
+	
+endmodule

@@ -1,0 +1,367 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Igor/Projetos/aoc_cpu_alfa/simulation/qsim
+valu_control
+Z1 !s110 1496845456
+!i10b 1
+!s100 Mm9T3hK>S_WWH63:9Ia9g3
+I^US9@l4KHc5=3PXWCh1Og1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1496845455
+Z3 8CPU_Project.vo
+Z4 FCPU_Project.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1496845456.000000
+Z8 !s107 CPU_Project.vo|
+Z9 !s90 -work|work|CPU_Project.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+valu_control_vlg_vec_tst
+R1
+!i10b 1
+!s100 S:j;HYOkG8a?RK:I95R_=2
+IWIWBFnmlOoX??_5]VZd^13
+R2
+R0
+w1496845453
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+Z12 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R10
+R11
+vcontrol_unit
+Z13 !s110 1496812088
+!i10b 1
+!s100 Z@4lZ7?6h<`1XiYMEJ@JT1
+ITUBf`Lan[VOgXCZBI3VG?2
+R2
+R0
+w1496812086
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1496812088.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcontrol_unit_vlg_vec_tst
+R13
+!i10b 1
+!s100 KdAm]b^Vc6Pc[2?6LzmgP3
+IHhg?YKj@ddWS`oIgVHVNj3
+R2
+R0
+w1496812085
+Z15 8Waveform3.vwf.vt
+Z16 FWaveform3.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform3.vwf.vt|
+Z17 !s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R10
+R11
+vcpu
+Z18 !s110 1499030041
+!i10b 1
+!s100 X?79BTzT`QJZ]FTm;P5Ff2
+IDicnjhWYE?8Oho:iOEYcQ0
+R2
+R0
+w1499030038
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1499030039.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcpu_vlg_vec_tst
+R18
+!i10b 1
+!s100 66;gILKb2;JNO0oR2W:3M1
+II:RV[XGBz[]O]G0_=`fLP3
+R2
+R0
+w1499030034
+8Waveform6.vwf.vt
+FWaveform6.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+!s108 1499030041.000000
+!s107 Waveform6.vwf.vt|
+!s90 -work|work|Waveform6.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+Z19 !s110 1544467607
+!i10b 1
+!s100 6REM781L7[HgoYBnCZ5;f2
+IIeY<if:5;T;h=R]7D36Y=3
+R2
+Z20 d/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/8o_semestre/LAB_Sistemas_Operacionais/CPU/beta/aoc_cpu_beta/simulation/qsim
+Z21 w1544467606
+R3
+R4
+L0 3870
+R6
+r1
+!s85 0
+31
+Z22 !s108 1544467607.000000
+R8
+R9
+!i113 1
+R10
+R11
+vhard_disk
+Z23 !s110 1542072221
+!i10b 1
+!s100 ik?0:_iROaIjoX>]j9JV?1
+I2l11_3f^FhMO55Ob8haLa0
+R2
+R20
+w1542072220
+R3
+R4
+Z24 L0 31
+R6
+r1
+!s85 0
+31
+Z25 !s108 1542072221.000000
+R8
+R9
+!i113 1
+R10
+R11
+vhard_disk_vlg_vec_tst
+R23
+!i10b 1
+!s100 n5Ek=MogMoIFXIhHPgA4B3
+I[BJcH<6@kgAfHfVWbcC8@2
+R2
+R20
+w1542072218
+Z26 8Waveform.vwf.vt
+Z27 FWaveform.vwf.vt
+Z28 L0 29
+R6
+r1
+!s85 0
+31
+R25
+Z29 !s107 Waveform.vwf.vt|
+Z30 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhd_timer
+Z31 !s110 1542109849
+!i10b 1
+!s100 o[T@JZSReoVVSgZO9J_<m3
+IiK=`b_=_kX?BTbkJlaLDB1
+R2
+R20
+w1542109847
+R3
+R4
+R24
+R6
+r1
+!s85 0
+31
+Z32 !s108 1542109849.000000
+R8
+R9
+!i113 1
+R10
+R11
+vhd_timer_vlg_vec_tst
+R31
+!i10b 1
+!s100 _GbO8mM:2a>SI0N<0NW^61
+I>W[m8LgEMJ9h2FDY=L2cD0
+R2
+R20
+w1542109846
+R26
+R27
+R28
+R6
+r1
+!s85 0
+31
+R32
+R29
+R30
+!i113 1
+R10
+R11
+vinterruptor
+R19
+!i10b 1
+!s100 d=[5cob4QjASH:cVR;9_92
+IcZTGIGbVg>koB7aD;ARB>0
+R2
+R20
+R21
+R3
+R4
+R24
+R6
+r1
+!s85 0
+31
+R22
+R8
+R9
+!i113 1
+R10
+R11
+vinterruptor_vlg_vec_tst
+R19
+!i10b 1
+!s100 f=D62MChjWm4b=NoiZUK[3
+INBMbdiaDSIWO^Rn14A3Yk0
+R2
+R20
+w1544467604
+R15
+R16
+R28
+R6
+r1
+!s85 0
+31
+R22
+!s107 Waveform3.vwf.vt|
+R17
+!i113 1
+R10
+R11
+vloop32i
+Z33 !s110 1542108286
+!i10b 1
+!s100 T40dK<:f^Qal^5h8kDo<M1
+IlVbY^6eCN@8BPI4[0Ml=R1
+R2
+R20
+w1542108282
+R3
+R4
+R24
+R6
+r1
+!s85 0
+31
+!s108 1542108284.000000
+R8
+R9
+!i113 1
+R10
+R11
+vloop32i_vlg_vec_tst
+R33
+!i10b 1
+!s100 F[2j5EabA7aWg6_Y=UGCV1
+IF>8LEYY6fm[HBj:aa?ZKJ0
+R2
+R20
+w1542108277
+R26
+R27
+R28
+R6
+r1
+!s85 0
+31
+!s108 1542108286.000000
+R29
+R30
+!i113 1
+R10
+R11
+vout_module_control
+Z34 !s110 1496844468
+!i10b 1
+!s100 @9z5<XUalG[9Xf8h68``>1
+IJm34V[<JkU?<6Wc=3C81_3
+R2
+R0
+w1496844459
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z35 !s108 1496844468.000000
+R8
+R9
+!i113 1
+R10
+R11
+vout_module_control_vlg_vec_tst
+R34
+!i10b 1
+!s100 A9zKR=eOFec8P<k1ZcSfP0
+Im5;B106A^SO5Dh;`hP]QA0
+R2
+R0
+w1496844458
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R35
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R10
+R11

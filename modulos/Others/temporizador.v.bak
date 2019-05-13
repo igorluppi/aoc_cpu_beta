@@ -1,0 +1,15 @@
+module temporizador (clk, clk_out);
+	input clk;
+	output clk_out;
+	wire w1, w2, w3, w4, w5, w6, w7;
+	
+	freq_div10 inst1(.clk(clk), .clk_out(w1));
+	freq_div10 inst2(.clk(w1), .clk_out(w2));
+	freq_div10 inst3(.clk(w2), .clk_out(w3));
+	freq_div10 inst4(.clk(w3), .clk_out(w4));
+	freq_div10 inst5(.clk(w4), .clk_out(w5));
+	freq_div10 inst6(.clk(w5), .clk_out(w6));
+	freq_div10 inst7(.clk(w6), .clk_out(w7));
+	freq_div10 inst8(.clk(w7), .clk_out(clk_out));
+
+endmodule

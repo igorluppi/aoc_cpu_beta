@@ -1,0 +1,24 @@
+module branch_control(PC, immediate, branchOut, branchCondition);
+	
+	input branchCondition;
+	input [31:0] PC, immediate;
+	output reg [31:0] branchOut;
+	reg [31:0] sum;
+
+
+	always@(*)
+	begin
+		if(branchCondition) begin
+			sum = PC + immediate;
+			if(sum >= 0 && sum <= (2^32-1))
+				branchOut = sum;
+			else
+				branchOut = 0;
+		end
+		else
+			branchOut = PC;
+		end
+		
+		
+	end
+endmodule

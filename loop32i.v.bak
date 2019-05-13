@@ -1,0 +1,14 @@
+module loop32i(clock, reset, button_in, button_out, switchSide, switches, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7);
+	
+	input clock, reset, button_in, button_out, switchSide;
+	input [15:0] switches;
+	output [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7;
+	
+	wire button_in_db, button_out_db;
+	
+	DeBounce debounce1(clock, 1'b0, button_in, button_in_db);
+	DeBounce debounce1(clock, 1'b0, button_out, button_out_db);
+	
+	cpu processador(clock, reset, button_in_db, button_out_db, switchSide, switches, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7)
+
+endmodule

@@ -1,0 +1,20 @@
+module extensor(in, out, flag);
+	parameter tamOp = 32;
+	parameter mTamOp = tamOp/2;
+
+	input [mtamOp-1:0] in;
+	input flag; 						// <-- (0); --> (1); 
+	output reg [tamOp-1:0] out;
+
+
+	always@(in)
+	begin
+		if(!flag) begin
+			
+		end
+		else begin
+		
+		end
+		
+	end
+endmodule

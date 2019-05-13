@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at interruptor.v(27): always construct contains both blocking and non-blocking assignments File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/Control/interruptor.v Line: 27
+Warning (10268): Verilog HDL information at hd_timer.v(15): always construct contains both blocking and non-blocking assignments File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/HD/hd_timer.v Line: 15
+Warning (10268): Verilog HDL information at temporizador.v(10): always construct contains both blocking and non-blocking assignments File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/Others/temporizador.v Line: 10

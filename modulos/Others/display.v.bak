@@ -1,0 +1,21 @@
+module display (d, y);
+	input [3:0] d;
+	output reg [6:0] y;
+	
+	always@(d)
+		begin
+			case(d)
+				0: y = 7'B0000001;
+				1: y = 7'B1001111;
+				2: y = 7'B0010010;
+				3: y = 7'B0000110;
+				4: y = 7'B1001100;
+				5: y = 7'B0100100;
+				6: y = 7'B0100000;
+				7: y = 7'B0001111;
+				8: y = 7'B0000000;
+				9: y = 7'B0000100;
+				default: y = 7'B1111111;
+			endcase
+		end
+endmodule

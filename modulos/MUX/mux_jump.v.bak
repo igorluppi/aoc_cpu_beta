@@ -1,0 +1,18 @@
+module mux_jump(PC, regs, immediate, jumpOut, jumpOp);
+	
+	input [1:0] jumpOp;
+	input [25:0] immediate;
+	input [31:0] PC, regs;
+	output reg [31:0] jumpOut;
+
+
+	always@(*)
+	begin
+		case(jumpOp)
+			0: jumpOut = {PC[31:26],immediate};
+			1: jumpOut = {immediate,6'b000000};
+			2: jumpOut = regs;
+			default: jumpOut = 0;
+		endcase
+	end
+endmodule

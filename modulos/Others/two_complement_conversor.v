@@ -1,0 +1,14 @@
+module two_complement_conversor(binarySigned, binary, sign);
+	input [31:0] binarySigned;
+	output reg [31:0] binary;
+	output reg sign;
+	
+	always@(*) 
+	begin
+		sign = binarySigned[31:31];
+		if (sign)
+			binary = ~binarySigned + {{31{1'b0}},1'b1};
+		else
+			binary = binarySigned;
+	end
+endmodule

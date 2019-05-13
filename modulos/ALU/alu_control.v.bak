@@ -1,0 +1,24 @@
+module alu_control(opcode, funct, functOut);
+	parameter tamOp = 32;
+
+	input [tamOp-1:0] a, b;
+	input [5:0] opcode, funct;
+	output reg [5:0] functOut;
+	output reg [tamOp-1:0] rs;
+
+
+	always@(*)
+	begin
+		case(opcode)
+			6'b000000: // r-type
+				begin
+					case(funct[5:1])
+						5'b01010: functOut = 6'b111111;   // Jump
+						default: functOut = funct;
+					endcase
+				end
+			6'b000001: // r-type
+			
+		endcase
+	end
+endmodule

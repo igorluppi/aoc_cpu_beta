@@ -1,0 +1,43 @@
+module alu (a, b, rs, funct);
+	parameter tamOp = 32;
+
+	input [tamOp-1:0] a, b;
+	input [5:0] funct;
+	output reg [tamOp-1:0] rs;
+
+
+	always@(funct,a,b)
+	begin
+		case(funct)
+            6'b100000: rs = a + b;	                            //add
+            6'b100010: rs = a - b;                              //sub
+            6'b011000: rs = a * b;                              //mult
+            6'b011010: rs = a / b;                              //div
+            6'b100100: rs = a & b;                              //and bitwise
+            6'b100101: rs = a | b;	                            //or bitwise
+            6'b100101: rs = ~a;	                                //not bitwise
+            6'b100110: rs = a ^ b;                              //xor bitwise
+            6'b001100: rs = (a > b) ? 1'b1 : 0;                 //sgt
+            6'b001101: rs = (a < b) ? 1'b1 : 0;                 //slt
+            6'b001101: rs = (a == b) ? 1'b1 : 0;                //set
+            6'b001110: rs = a << b;                             //logical left shift of a
+            6'b001111: rs = a >> b;                             //logical right shift of a
+            6'b010000: rs = $signed(a) >>> b;                   //arithmetic right shift of a
+            6'b010001:                                          //left rotation of a
+                      begin
+                            rs = a << 1;
+                            rs[0:0] = a[tamOp-1:tamOp-1];
+                      end
+            6'b010011:                                          //right rotation of a
+                      begin
+                            rs = a >> 1;
+                            rs[tamOp-1:tamOp-1] = a[0:0];
+                      end
+            5'b10010: rs = a;                                   //move
+            5'b10011: rs = a + 1;                               //increment data of a
+            5'b10100: rs = a - 1;                               //decrement data of a
+            5'b11001: rs = a % b;                               //modulo
+
+		endcase
+	end
+endmodule

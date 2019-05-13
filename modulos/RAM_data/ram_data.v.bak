@@ -1,0 +1,28 @@
+module ram_data(clock, memAddress, memWrite, memRead, data, dataOut);
+	input [31:0] data, [15:0] memAddress, memWrite, memRead clock;
+	output reg [31:0] datOut;
+	
+	parameter RAM_SIZE = 65536; // 16 bits 
+	reg [31:0] RAM [0:RAM_SIZE-1]; // RAM_SIZE words of 32-bit memory
+	reg [15:0] memAddressReg; 
+	
+	
+	always @ (posedge clock)
+	begin
+		
+		if (memWrite)
+		begin
+			RAM[memAddress] = data;
+		end
+		
+		if (memRead)
+		begin
+			dataOut = RAM[memAddress];
+		end
+		
+		memAddressReg = memAddress;
+	
+	end
+	
+	
+endmodule
