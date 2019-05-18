@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/8o_semestre/LAB_Sistemas_Operacionais/CPU/beta/aoc_cpu_beta/output_files/") File("CPU_Project.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/output_files/") File("CPU_Project.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

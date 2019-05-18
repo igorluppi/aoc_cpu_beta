@@ -1,5 +1,5 @@
 Flow report for CPU_Project
-Wed May  8 20:51:21 2019
+Thu May 16 20:42:22 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed May  8 20:51:21 2019       ;
+; Flow Status                        ; Successful - Thu May 16 20:42:22 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; CPU_Project                                 ;
 ; Top-level Entity Name              ; loop32i                                     ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 8,990                                       ;
-;     Total combinational functions  ; 8,679                                       ;
-;     Dedicated logic registers      ; 1,696                                       ;
+; Total logic elements               ; 8,911 / 114,480 ( 8 % )                     ;
+;     Total combinational functions  ; 8,680 / 114,480 ( 8 % )                     ;
+;     Dedicated logic registers      ; 1,696 / 114,480 ( 1 % )                     ;
 ; Total registers                    ; 1696                                        ;
-; Total pins                         ; 99                                          ;
+; Total pins                         ; 99 / 529 ( 19 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 1,851,936                                   ;
-; Embedded Multiplier 9-bit elements ; 6                                           ;
-; Total PLLs                         ; 0                                           ;
+; Total memory bits                  ; 1,851,936 / 3,981,312 ( 47 % )              ;
+; Embedded Multiplier 9-bit elements ; 6 / 532 ( 1 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/08/2019 20:50:05 ;
+; Start date & time ; 05/16/2019 20:26:00 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU_Project         ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 102021898480809.155735940507824        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 277682377870.155804916015699           ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -98,8 +98,10 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:13     ; 1.0                     ; 1041 MB             ; 00:01:42                           ;
-; Total                ; 00:01:13     ; --                      ; --                  ; 00:01:42                           ;
+; Analysis & Synthesis ; 00:03:46     ; 1.0                     ; 1123 MB             ; 00:04:12                           ;
+; Fitter               ; 00:12:18     ; 1.0                     ; 1589 MB             ; 00:12:52                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 863 MB              ; 00:00:07                           ;
+; Total                ; 00:16:12     ; --                      ; --                  ; 00:17:11                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -109,6 +111,8 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
 +----------------------+------------------+----------------+------------+----------------+
 ; Analysis & Synthesis ; igor-note-iw     ; Ubuntu 16.04.6 ; 16         ; x86_64         ;
+; Fitter               ; igor-note-iw     ; Ubuntu 16.04.6 ; 16         ; x86_64         ;
+; Assembler            ; igor-note-iw     ; Ubuntu 16.04.6 ; 16         ; x86_64         ;
 +----------------------+------------------+----------------+------------+----------------+
 
 
@@ -116,6 +120,8 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off CPU_Project -c CPU_Project
+quartus_fit --read_settings_files=off --write_settings_files=off CPU_Project -c CPU_Project
+quartus_asm --read_settings_files=off --write_settings_files=off CPU_Project -c CPU_Project
 
 
 

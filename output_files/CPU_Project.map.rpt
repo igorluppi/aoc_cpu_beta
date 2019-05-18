@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU_Project
-Wed May  8 20:51:21 2019
+Thu May 16 20:29:49 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -138,7 +138,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed May  8 20:51:20 2019       ;
+; Analysis & Synthesis Status        ; Successful - Thu May 16 20:29:48 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; CPU_Project                                 ;
 ; Top-level Entity Name              ; loop32i                                     ;
@@ -254,7 +254,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.4%      ;
+;     Processor 2            ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -2385,7 +2385,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:51     ;
+; Top            ; 00:00:52     ;
 +----------------+--------------+
 
 
@@ -2395,7 +2395,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Wed May  8 20:50:05 2019
+    Info: Processing started: Thu May 16 20:26:00 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU_Project -c CPU_Project
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -2781,6 +2781,14 @@ Info (12133): Instantiated megafunction "cpu:cpu_core|hard_disk:hd|altsyncram:HD
     Info (12134): Parameter "INIT_FILE" = "db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_mli1.tdf
     Info (12023): Found entity 1: altsyncram_mli1 File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_mli1.tdf Line: 33
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_msa.tdf
     Info (12023): Found entity 1: decode_msa File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/decode_msa.tdf Line: 22
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_f8a.tdf
@@ -2877,11 +2885,11 @@ Info (21057): Implemented 9462 device resources after synthesis - the final reso
     Info (21061): Implemented 9064 logic cells
     Info (21064): Implemented 293 RAM segments
     Info (21062): Implemented 6 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 60 warnings
-    Info: Peak virtual memory: 1080 megabytes
-    Info: Processing ended: Wed May  8 20:51:21 2019
-    Info: Elapsed time: 00:01:16
-    Info: Total CPU time (on all processors): 00:01:44
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 68 warnings
+    Info: Peak virtual memory: 1135 megabytes
+    Info: Processing ended: Thu May 16 20:29:49 2019
+    Info: Elapsed time: 00:03:49
+    Info: Total CPU time (on all processors): 00:04:15
 
 
 +------------------------------------------+

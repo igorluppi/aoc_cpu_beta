@@ -23,7 +23,12 @@ module hard_disk(write_clock, read_clock, reset, trilha, setor, data, dataOut, h
 	begin : INIT
 
 	/*Tabela de Programas Distribuida*/
-	
+	/*Header File*/
+	/**
+	* HD[i_0] = ativo;
+	* HD[i_1] = identificador;
+	* HD[i_2] = tamanho;
+	*/
 	/*Header File 01*/
 	HD[3072] = 32'd1;
 	HD[3073] = 32'd1;
@@ -64,6 +69,10 @@ module hard_disk(write_clock, read_clock, reset, trilha, setor, data, dataOut, h
 	HD[12288] = 32'd1;
 	HD[12289] = 32'd10;
 	HD[12290] = 32'd66;
+	/*Header File 11*/
+	HD[13312] = 32'd1;
+	HD[13313] = 32'd11;
+	HD[13314] = 32'd8;
 	
 	/*Sistema Operacional - Size:2925*/
 	/* Parameters: <mem_offset = 0> <priority_system = true> <index_begin = -1> */
@@ -3985,6 +3994,17 @@ module hard_disk(write_clock, read_clock, reset, trilha, setor, data, dataOut, h
 	HD[12354] = 32'b000000_01010_11001_00000_00000_010000; // move 25 10
 	HD[12355] = 32'b101101_00000000000000000000001000; // syscall 1
 	HD[12356] = 32'b101100_00000000000000000000001111; // return / _halt_
+	
+	/* Programa 11 */
+	/* Parameters: <mem_offset = 3000> <priority_system = false> <index_begin = 13315> */
+	HD[13315] = 32'b000101_00000_00001_0000000000000111; // li 1 7
+	HD[13316] = 32'b010001_00001_00000_0000000000000000; // send 1
+	HD[13317] = 32'b000101_00000_00010_0000000000001010; // li 2 10
+	HD[13318] = 32'b000101_00000_00100_0000000000001100; // li 4 12
+	HD[13319] = 32'b001010_00001_00000_0000000000000000; // out 1
+	HD[13320] = 32'b010010_00000_00101_0000000000000000; // recv 5
+	HD[13321] = 32'b001010_00101_00000_0000000000000000; // out 5
+	HD[13322] = 32'b101100_00000000000000000000001111; // return
 	
 	end 
 	
