@@ -314,7 +314,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AH22      :        :                   :      
 input_sig_recv               : AH23      : input  : 2.5 V             :         : 4         : Y              
 VCCIO4                       : AH24      : power  :                   : 2.5V    : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH25      :        :                   :         : 4         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH26      :        :                   :         : 4         :                
+output_sig_send              : AH26      : output : 2.5 V             :         : 4         : Y              
 VCCIO4                       : AH27      : power  :                   : 2.5V    : 4         :                
 VCCIO1                       : B1        : power  :                   : 2.5V    : 1         :                
 GND                          : B2        : gnd    :                   :         :           :                

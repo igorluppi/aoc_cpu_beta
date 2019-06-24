@@ -9,11 +9,13 @@ module serial_communication(
 	
 	//////////// DATA //////////
 	input       [7:0]          in,
-	output reg  [7:0]          out,
+	output      [7:0]          out,
 	
 	//////////// CONTROL //////////
 	input                      receive_flag,
-	input                      send_flag
+	input                      send_flag,
+	
+	output                     data_available
 );
 
 //=======================================================
@@ -24,6 +26,7 @@ assign  UART_TX = txd;
 assign  rxd  = UART_RX;
 assign  uart_data = uart_data_read;
 assign  uart_data_write = in;
+reg	 [7:0]   hold_data;
 
 wire 				rts; // request to send		  
 wire 				cts; // clear to send
@@ -34,7 +37,7 @@ wire	 [7:0]   uart_data_read;
 wire	 [7:0]   uart_data_write;
 wire	         rdempty;
 wire	         write;
-wire	         data_available;
+//wire	         data_available;
 reg	         read;
 reg	         cnt;
 //=======================================================
@@ -71,19 +74,19 @@ begin
 end
 
 assign  data_available = (read & (~rdempty)); // indica se o dado esta disponivel no canal de comunicacao.
-assign  write = (read & (~rdempty)) & send_flag; // indica quando pode-se escrever o dado no canal de comunicacao.
+//assign  write = (read & (~rdempty)) & send_flag; // indica quando pode-se escrever o dado no canal de comunicacao.
+assign  write =  send_flag; // indica quando pode-se escrever o dado no canal de comunicacao.
 
 always@(posedge CLOCK_50)
 begin
 
-  if (data_available && receive_flag) begin
-    out <= uart_data; // atribui o buffer a saida
-  end
-  else begin
-    out <= 8'b0;
+  if (data_available) begin
+    hold_data <= uart_data; // atribui o buffer a saida
   end
 	 
 end
+
+assign out = (receive_flag == 1'b1) ? hold_data : 0;
 
 always@(posedge CLOCK_50) 
 begin

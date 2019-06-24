@@ -1,4 +1,4 @@
-module loop32i(clock, n_reset, n_button_in, n_button_out, switchSide, switchUnsigned, switches, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7, in_on, out_on, isHDOP, LCD_ON, LCD_BLON, LCD_RW, LCD_EN, LCD_RS, LCD_DATA, UART_RX, UART_TX, input_sig_send, input_sig_recv, output_sig_recv);
+module loop32i(clock, n_reset, n_button_in, n_button_out, switchSide, switchUnsigned, switches, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7, in_on, out_on, isHDOP, LCD_ON, LCD_BLON, LCD_RW, LCD_EN, LCD_RS, LCD_DATA, UART_RX, UART_TX, input_sig_send, input_sig_recv, output_sig_send, output_sig_recv);
 	
 	input clock, n_reset, n_button_in, n_button_out, switchSide, switchUnsigned;
 	input [15:0] switches;
@@ -11,7 +11,7 @@ module loop32i(clock, n_reset, n_button_in, n_button_out, switchSide, switchUnsi
 	
 	input UART_RX, UART_TX;
 	input input_sig_send, input_sig_recv;
-	output output_sig_recv;
+	output output_sig_send, output_sig_recv;
 	
 	wire reset, clock_cpu;
 	wire n_button_in_db, n_button_out_db;
@@ -34,7 +34,7 @@ module loop32i(clock, n_reset, n_button_in, n_button_out, switchSide, switchUnsi
 	temporizador temp(clock, clock_cpu);
 	
 	
-	cpu cpu_core(clock_cpu, clock, reset, button_in_pulse, button_out_pulse, switchSide, switchUnsigned, switches, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7, in_on, out_on, isHDOP, LCD_ON, LCD_BLON, LCD_RW, LCD_EN, LCD_RS, LCD_DATA, UART_RX, UART_TX, input_sig_send, input_sig_recv, output_sig_recv);
+	cpu cpu_core(clock_cpu, clock, reset, button_in_pulse, button_out_pulse, switchSide, switchUnsigned, switches, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7, in_on, out_on, isHDOP, LCD_ON, LCD_BLON, LCD_RW, LCD_EN, LCD_RS, LCD_DATA, UART_RX, UART_TX, input_sig_send, input_sig_recv, output_sig_send, output_sig_recv);
 	
 	
 endmodule
