@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU_Project
-Thu Jun 13 20:32:02 2019
+Sat Jun 29 19:02:41 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -19,99 +19,98 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
  11. State Machine - |loop32i|cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state
  12. Registers Protected by Synthesis
  13. Registers Removed During Synthesis
- 14. Removed Registers Triggering Further Register Optimizations
- 15. General Register Statistics
- 16. Inverted Register Statistics
- 17. Registers Added for RAM Pass-Through Logic
- 18. Registers Packed Into Inferred Megafunctions
- 19. Multiplexer Restructuring Statistics (Restructuring Performed)
- 20. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component
- 21. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated
- 22. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p
- 23. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p
- 24. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram
- 25. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|dffpipe_gd9:rs_brp
- 26. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|dffpipe_gd9:rs_bwp
- 27. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp
- 28. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13
- 29. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp
- 30. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16
- 31. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component
- 32. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated
- 33. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p
- 34. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p
- 35. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram
- 36. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|dffpipe_gd9:rs_brp
- 37. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|dffpipe_gd9:rs_bwp
- 38. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp
- 39. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13
- 40. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp
- 41. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16
- 42. Source assignments for cpu:cpu_core|ram_inst:ramInstrucoes|altsyncram:RAM_INST_rtl_0|altsyncram_66h1:auto_generated
- 43. Source assignments for cpu:cpu_core|ram_data:ram|altsyncram:RAM_rtl_0|altsyncram_mcd1:auto_generated
- 44. Source assignments for cpu:cpu_core|stack_data:stack|altsyncram:STACK_rtl_0|altsyncram_g9d1:auto_generated
- 45. Source assignments for cpu:cpu_core|hard_disk:hd|altsyncram:HD_rtl_0|altsyncram_mli1:auto_generated
- 46. Source assignments for cpu:cpu_core|bios:biosInstrucoes|altsyncram:Mux29_rtl_0|altsyncram_cvv:auto_generated
- 47. Parameter Settings for User Entity Instance: DeBounce:debounce1
- 48. Parameter Settings for User Entity Instance: DeBounce:debounce2
- 49. Parameter Settings for User Entity Instance: temporizador:temp
- 50. Parameter Settings for User Entity Instance: cpu:cpu_core|program_counter:PC
- 51. Parameter Settings for User Entity Instance: cpu:cpu_core|ram_inst:ramInstrucoes
- 52. Parameter Settings for User Entity Instance: cpu:cpu_core|bios:biosInstrucoes
- 53. Parameter Settings for User Entity Instance: cpu:cpu_core|bios_control:biosControl
- 54. Parameter Settings for User Entity Instance: cpu:cpu_core|registers:regs
- 55. Parameter Settings for User Entity Instance: cpu:cpu_core|extensor:ext
- 56. Parameter Settings for User Entity Instance: cpu:cpu_core|alu:Alu
- 57. Parameter Settings for User Entity Instance: cpu:cpu_core|stack_data:stack
- 58. Parameter Settings for User Entity Instance: cpu:cpu_core|ram_data:ram
- 59. Parameter Settings for User Entity Instance: cpu:cpu_core|hd_timer:hdTimer
- 60. Parameter Settings for User Entity Instance: cpu:cpu_core|hard_disk:hd
- 61. Parameter Settings for User Entity Instance: cpu:cpu_core|in_module:moduleIN|extensor:ext1
- 62. Parameter Settings for User Entity Instance: cpu:cpu_core|in_module:moduleIN|extensor:ext2
- 63. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H0
- 64. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H1
- 65. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H2
- 66. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H3
- 67. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H4
- 68. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H5
- 69. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H6
- 70. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H7
- 71. Parameter Settings for User Entity Instance: cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1
- 72. Parameter Settings for User Entity Instance: cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|LCD_display_string:u1
- 73. Parameter Settings for User Entity Instance: cpu:cpu_core|lcd_ram:LCDram
- 74. Parameter Settings for User Entity Instance: cpu:cpu_core|interruptor:moduleIntr
- 75. Parameter Settings for User Entity Instance: cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component
- 76. Parameter Settings for User Entity Instance: cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_transmitter:tx
- 77. Parameter Settings for User Entity Instance: cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component
- 78. Parameter Settings for User Entity Instance: cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx
- 79. Parameter Settings for User Entity Instance: cpu:cpu_core|send_control:sendControl
- 80. Parameter Settings for User Entity Instance: cpu:cpu_core|recv_control:recvControl
- 81. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|ram_inst:ramInstrucoes|altsyncram:RAM_INST_rtl_0
- 82. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|ram_data:ram|altsyncram:RAM_rtl_0
- 83. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|stack_data:stack|altsyncram:STACK_rtl_0
- 84. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|hard_disk:hd|altsyncram:HD_rtl_0
- 85. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|bios:biosInstrucoes|altsyncram:Mux29_rtl_0
- 86. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|alu:Alu|lpm_mult:Mult0
- 87. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|alu:Alu|lpm_divide:Mod0
- 88. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|alu:Alu|lpm_divide:Div0
- 89. dcfifo Parameter Settings by Entity Instance
- 90. altsyncram Parameter Settings by Entity Instance
- 91. lpm_mult Parameter Settings by Entity Instance
- 92. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx"
- 93. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx"
- 94. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx"
- 95. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0"
- 96. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm"
- 97. Port Connectivity Checks: "cpu:cpu_core|interruptor:moduleIntr"
- 98. Port Connectivity Checks: "cpu:cpu_core|control_unit:UC"
- 99. Port Connectivity Checks: "cpu:cpu_core|mux_9:muxRS"
-100. Port Connectivity Checks: "cpu:cpu_core|out_module:moduleOut|display:H7"
-101. Port Connectivity Checks: "cpu:cpu_core|out_module:moduleOut|bcd_conversor:BCDconcersor"
-102. Port Connectivity Checks: "cpu:cpu_core|hd_timer:hdTimer"
-103. Post-Synthesis Netlist Statistics for Top Partition
-104. Elapsed Time Per Partition
-105. Analysis & Synthesis Messages
-106. Analysis & Synthesis Suppressed Messages
+ 14. General Register Statistics
+ 15. Inverted Register Statistics
+ 16. Registers Added for RAM Pass-Through Logic
+ 17. Registers Packed Into Inferred Megafunctions
+ 18. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 19. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component
+ 20. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated
+ 21. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p
+ 22. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p
+ 23. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram
+ 24. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|dffpipe_gd9:rs_brp
+ 25. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|dffpipe_gd9:rs_bwp
+ 26. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp
+ 27. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13
+ 28. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp
+ 29. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16
+ 30. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component
+ 31. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated
+ 32. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p
+ 33. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p
+ 34. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram
+ 35. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|dffpipe_gd9:rs_brp
+ 36. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|dffpipe_gd9:rs_bwp
+ 37. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp
+ 38. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13
+ 39. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp
+ 40. Source assignments for cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16
+ 41. Source assignments for cpu:cpu_core|ram_inst:ramInstrucoes|altsyncram:RAM_INST_rtl_0|altsyncram_66h1:auto_generated
+ 42. Source assignments for cpu:cpu_core|ram_data:ram|altsyncram:RAM_rtl_0|altsyncram_mcd1:auto_generated
+ 43. Source assignments for cpu:cpu_core|stack_data:stack|altsyncram:STACK_rtl_0|altsyncram_g9d1:auto_generated
+ 44. Source assignments for cpu:cpu_core|hard_disk:hd|altsyncram:HD_rtl_0|altsyncram_mli1:auto_generated
+ 45. Source assignments for cpu:cpu_core|bios:biosInstrucoes|altsyncram:Mux29_rtl_0|altsyncram_cvv:auto_generated
+ 46. Parameter Settings for User Entity Instance: DeBounce:debounce1
+ 47. Parameter Settings for User Entity Instance: DeBounce:debounce2
+ 48. Parameter Settings for User Entity Instance: temporizador:temp
+ 49. Parameter Settings for User Entity Instance: cpu:cpu_core|program_counter:PC
+ 50. Parameter Settings for User Entity Instance: cpu:cpu_core|ram_inst:ramInstrucoes
+ 51. Parameter Settings for User Entity Instance: cpu:cpu_core|bios:biosInstrucoes
+ 52. Parameter Settings for User Entity Instance: cpu:cpu_core|bios_control:biosControl
+ 53. Parameter Settings for User Entity Instance: cpu:cpu_core|registers:regs
+ 54. Parameter Settings for User Entity Instance: cpu:cpu_core|extensor:ext
+ 55. Parameter Settings for User Entity Instance: cpu:cpu_core|alu:Alu
+ 56. Parameter Settings for User Entity Instance: cpu:cpu_core|stack_data:stack
+ 57. Parameter Settings for User Entity Instance: cpu:cpu_core|ram_data:ram
+ 58. Parameter Settings for User Entity Instance: cpu:cpu_core|hd_timer:hdTimer
+ 59. Parameter Settings for User Entity Instance: cpu:cpu_core|hard_disk:hd
+ 60. Parameter Settings for User Entity Instance: cpu:cpu_core|in_module:moduleIN|extensor:ext1
+ 61. Parameter Settings for User Entity Instance: cpu:cpu_core|in_module:moduleIN|extensor:ext2
+ 62. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H0
+ 63. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H1
+ 64. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H2
+ 65. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H3
+ 66. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H4
+ 67. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H5
+ 68. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H6
+ 69. Parameter Settings for User Entity Instance: cpu:cpu_core|out_module:moduleOut|display:H7
+ 70. Parameter Settings for User Entity Instance: cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1
+ 71. Parameter Settings for User Entity Instance: cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|LCD_display_string:u1
+ 72. Parameter Settings for User Entity Instance: cpu:cpu_core|lcd_ram:LCDram
+ 73. Parameter Settings for User Entity Instance: cpu:cpu_core|interruptor:moduleIntr
+ 74. Parameter Settings for User Entity Instance: cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component
+ 75. Parameter Settings for User Entity Instance: cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_transmitter:tx
+ 76. Parameter Settings for User Entity Instance: cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component
+ 77. Parameter Settings for User Entity Instance: cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx
+ 78. Parameter Settings for User Entity Instance: cpu:cpu_core|send_control:sendControl
+ 79. Parameter Settings for User Entity Instance: cpu:cpu_core|recv_control:recvControl
+ 80. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|ram_inst:ramInstrucoes|altsyncram:RAM_INST_rtl_0
+ 81. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|ram_data:ram|altsyncram:RAM_rtl_0
+ 82. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|stack_data:stack|altsyncram:STACK_rtl_0
+ 83. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|hard_disk:hd|altsyncram:HD_rtl_0
+ 84. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|bios:biosInstrucoes|altsyncram:Mux29_rtl_0
+ 85. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|alu:Alu|lpm_mult:Mult0
+ 86. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|alu:Alu|lpm_divide:Mod0
+ 87. Parameter Settings for Inferred Entity Instance: cpu:cpu_core|alu:Alu|lpm_divide:Div0
+ 88. dcfifo Parameter Settings by Entity Instance
+ 89. altsyncram Parameter Settings by Entity Instance
+ 90. lpm_mult Parameter Settings by Entity Instance
+ 91. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx"
+ 92. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx"
+ 93. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx"
+ 94. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0"
+ 95. Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm"
+ 96. Port Connectivity Checks: "cpu:cpu_core|interruptor:moduleIntr"
+ 97. Port Connectivity Checks: "cpu:cpu_core|control_unit:UC"
+ 98. Port Connectivity Checks: "cpu:cpu_core|mux_9:muxRS"
+ 99. Port Connectivity Checks: "cpu:cpu_core|out_module:moduleOut|display:H7"
+100. Port Connectivity Checks: "cpu:cpu_core|out_module:moduleOut|bcd_conversor:BCDconcersor"
+101. Port Connectivity Checks: "cpu:cpu_core|hd_timer:hdTimer"
+102. Post-Synthesis Netlist Statistics for Top Partition
+103. Elapsed Time Per Partition
+104. Analysis & Synthesis Messages
+105. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -137,18 +136,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jun 13 20:32:02 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sat Jun 29 19:02:40 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; CPU_Project                                 ;
 ; Top-level Entity Name              ; loop32i                                     ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 9,043                                       ;
-;     Total combinational functions  ; 8,723                                       ;
-;     Dedicated logic registers      ; 1,696                                       ;
-; Total registers                    ; 1696                                        ;
+; Total logic elements               ; 9,203                                       ;
+;     Total combinational functions  ; 8,811                                       ;
+;     Dedicated logic registers      ; 1,817                                       ;
+; Total registers                    ; 1817                                        ;
 ; Total pins                         ; 100                                         ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 1,851,936                                   ;
+; Total memory bits                  ; 1,853,984                                   ;
 ; Embedded Multiplier 9-bit elements ; 6                                           ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
@@ -253,7 +252,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.4%      ;
+;     Processor 2            ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -371,31 +370,31 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------+
 ; Resource                                    ; Usage                     ;
 +---------------------------------------------+---------------------------+
-; Estimated Total logic elements              ; 9,043                     ;
+; Estimated Total logic elements              ; 9,203                     ;
 ;                                             ;                           ;
-; Total combinational functions               ; 8723                      ;
+; Total combinational functions               ; 8811                      ;
 ; Logic element usage by number of LUT inputs ;                           ;
-;     -- 4 input functions                    ; 6236                      ;
-;     -- 3 input functions                    ; 1843                      ;
-;     -- <=2 input functions                  ; 644                       ;
+;     -- 4 input functions                    ; 6284                      ;
+;     -- 3 input functions                    ; 1850                      ;
+;     -- <=2 input functions                  ; 677                       ;
 ;                                             ;                           ;
 ; Logic elements by mode                      ;                           ;
-;     -- normal mode                          ; 7259                      ;
-;     -- arithmetic mode                      ; 1464                      ;
+;     -- normal mode                          ; 7332                      ;
+;     -- arithmetic mode                      ; 1479                      ;
 ;                                             ;                           ;
-; Total registers                             ; 1696                      ;
-;     -- Dedicated logic registers            ; 1696                      ;
+; Total registers                             ; 1817                      ;
+;     -- Dedicated logic registers            ; 1817                      ;
 ;     -- I/O registers                        ; 0                         ;
 ;                                             ;                           ;
 ; I/O pins                                    ; 100                       ;
-; Total memory bits                           ; 1851936                   ;
+; Total memory bits                           ; 1853984                   ;
 ;                                             ;                           ;
 ; Embedded Multiplier 9-bit elements          ; 6                         ;
 ;                                             ;                           ;
 ; Maximum fan-out node                        ; temporizador:temp|clk_out ;
 ; Maximum fan-out                             ; 1648                      ;
-; Total fan-out                               ; 42525                     ;
-; Average fan-out                             ; 3.89                      ;
+; Total fan-out                               ; 43163                     ;
+; Average fan-out                             ; 3.87                      ;
 +---------------------------------------------+---------------------------+
 
 
@@ -404,10 +403,10 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
 ; Compilation Hierarchy Node                         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                 ; Entity Name              ; Library Name ;
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
-; |loop32i                                           ; 8723 (0)            ; 1696 (0)                  ; 1851936     ; 6            ; 0       ; 3         ; 100  ; 0            ; |loop32i                                                                                                                                                                                            ; loop32i                  ; work         ;
+; |loop32i                                           ; 8811 (0)            ; 1817 (0)                  ; 1853984     ; 6            ; 0       ; 3         ; 100  ; 0            ; |loop32i                                                                                                                                                                                            ; loop32i                  ; work         ;
 ;    |DeBounce:debounce1|                            ; 26 (26)             ; 14 (14)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|DeBounce:debounce1                                                                                                                                                                         ; DeBounce                 ; work         ;
 ;    |DeBounce:debounce2|                            ; 26 (26)             ; 14 (14)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|DeBounce:debounce2                                                                                                                                                                         ; DeBounce                 ; work         ;
-;    |cpu:cpu_core|                                  ; 8646 (0)            ; 1653 (0)                  ; 1851936     ; 6            ; 0       ; 3         ; 0    ; 0            ; |loop32i|cpu:cpu_core                                                                                                                                                                               ; cpu                      ; work         ;
+;    |cpu:cpu_core|                                  ; 8732 (0)            ; 1774 (0)                  ; 1853984     ; 6            ; 0       ; 3         ; 0    ; 0            ; |loop32i|cpu:cpu_core                                                                                                                                                                               ; cpu                      ; work         ;
 ;       |alu:Alu|                                    ; 2911 (701)          ; 0 (0)                     ; 0           ; 6            ; 0       ; 3         ; 0    ; 0            ; |loop32i|cpu:cpu_core|alu:Alu                                                                                                                                                                       ; alu                      ; work         ;
 ;          |lpm_divide:Div0|                         ; 1074 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|alu:Alu|lpm_divide:Div0                                                                                                                                                       ; lpm_divide               ; work         ;
 ;             |lpm_divide_hkm:auto_generated|        ; 1074 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|alu:Alu|lpm_divide:Div0|lpm_divide_hkm:auto_generated                                                                                                                         ; lpm_divide_hkm           ; work         ;
@@ -471,14 +470,16 @@ refer to the applicable agreement for further details.
 ;       |registers:regs|                             ; 3378 (3378)         ; 992 (992)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|registers:regs                                                                                                                                                                ; registers                ; work         ;
 ;       |send_control:sendControl|                   ; 4 (3)               ; 2 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|send_control:sendControl                                                                                                                                                      ; send_control             ; work         ;
 ;          |oneshot:pulser|                          ; 1 (1)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|send_control:sendControl|oneshot:pulser                                                                                                                                       ; oneshot                  ; work         ;
-;       |serial_communication:SerialComm|            ; 91 (2)              ; 143 (10)                  ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm                                                                                                                                               ; serial_communication     ; work         ;
-;          |uart_control:UART0|                      ; 89 (1)              ; 133 (1)                   ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0                                                                                                                            ; uart_control             ; work         ;
+;       |serial_communication:SerialComm|            ; 177 (2)             ; 264 (10)                  ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm                                                                                                                                               ; serial_communication     ; work         ;
+;          |oneshot:pulsoSend|                       ; 1 (1)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|oneshot:pulsoSend                                                                                                                             ; oneshot                  ; work         ;
+;          |uart_control:UART0|                      ; 174 (2)             ; 252 (2)                   ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0                                                                                                                            ; uart_control             ; work         ;
 ;             |async_receiver:rx|                    ; 37 (37)             ; 43 (43)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx                                                                                                          ; async_receiver           ; work         ;
-;             |uart_fifo:uart_fifo_rx|               ; 51 (0)              ; 89 (0)                    ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx                                                                                                     ; uart_fifo                ; work         ;
-;                |dcfifo:dcfifo_component|           ; 51 (0)              ; 89 (0)                    ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component                                                                             ; dcfifo                   ; work         ;
-;                   |dcfifo_npi1:auto_generated|     ; 51 (5)              ; 89 (27)                   ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated                                                  ; dcfifo_npi1              ; work         ;
+;             |async_transmitter:tx|                 ; 33 (33)             ; 29 (29)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_transmitter:tx                                                                                                       ; async_transmitter        ; work         ;
+;             |uart_fifo:uart_fifo_rx|               ; 50 (0)              ; 89 (0)                    ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx                                                                                                     ; uart_fifo                ; work         ;
+;                |dcfifo:dcfifo_component|           ; 50 (0)              ; 89 (0)                    ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component                                                                             ; dcfifo                   ; work         ;
+;                   |dcfifo_npi1:auto_generated|     ; 50 (5)              ; 89 (27)                   ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated                                                  ; dcfifo_npi1              ; work         ;
 ;                      |a_graycounter_pjc:wrptr_g1p| ; 17 (17)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p                      ; a_graycounter_pjc        ; work         ;
-;                      |a_graycounter_t57:rdptr_g1p| ; 18 (18)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p                      ; a_graycounter_t57        ; work         ;
+;                      |a_graycounter_t57:rdptr_g1p| ; 17 (17)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p                      ; a_graycounter_t57        ; work         ;
 ;                      |alt_synch_pipe_0ol:rs_dgwp|  ; 0 (0)               ; 18 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp                       ; alt_synch_pipe_0ol       ; work         ;
 ;                         |dffpipe_hd9:dffpipe13|    ; 0 (0)               ; 18 (18)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13 ; dffpipe_hd9              ; work         ;
 ;                      |alt_synch_pipe_1ol:ws_dgrp|  ; 0 (0)               ; 18 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp                       ; alt_synch_pipe_1ol       ; work         ;
@@ -486,12 +487,24 @@ refer to the applicable agreement for further details.
 ;                      |altsyncram_fl41:fifo_ram|    ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram                         ; altsyncram_fl41          ; work         ;
 ;                      |cmpr_f66:rdempty_eq_comp|    ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|cmpr_f66:rdempty_eq_comp                         ; cmpr_f66                 ; work         ;
 ;                      |cmpr_f66:wrfull_eq_comp|     ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|cmpr_f66:wrfull_eq_comp                          ; cmpr_f66                 ; work         ;
+;             |uart_fifo:uart_fifo_tx|               ; 52 (0)              ; 89 (0)                    ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx                                                                                                     ; uart_fifo                ; work         ;
+;                |dcfifo:dcfifo_component|           ; 52 (0)              ; 89 (0)                    ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component                                                                             ; dcfifo                   ; work         ;
+;                   |dcfifo_npi1:auto_generated|     ; 52 (6)              ; 89 (27)                   ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated                                                  ; dcfifo_npi1              ; work         ;
+;                      |a_graycounter_pjc:wrptr_g1p| ; 18 (18)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p                      ; a_graycounter_pjc        ; work         ;
+;                      |a_graycounter_t57:rdptr_g1p| ; 17 (17)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p                      ; a_graycounter_t57        ; work         ;
+;                      |alt_synch_pipe_0ol:rs_dgwp|  ; 0 (0)               ; 18 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp                       ; alt_synch_pipe_0ol       ; work         ;
+;                         |dffpipe_hd9:dffpipe13|    ; 0 (0)               ; 18 (18)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13 ; dffpipe_hd9              ; work         ;
+;                      |alt_synch_pipe_1ol:ws_dgrp|  ; 0 (0)               ; 18 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp                       ; alt_synch_pipe_1ol       ; work         ;
+;                         |dffpipe_id9:dffpipe16|    ; 0 (0)               ; 18 (18)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16 ; dffpipe_id9              ; work         ;
+;                      |altsyncram_fl41:fifo_ram|    ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram                         ; altsyncram_fl41          ; work         ;
+;                      |cmpr_f66:rdempty_eq_comp|    ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|cmpr_f66:rdempty_eq_comp                         ; cmpr_f66                 ; work         ;
+;                      |cmpr_f66:wrfull_eq_comp|     ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|cmpr_f66:wrfull_eq_comp                          ; cmpr_f66                 ; work         ;
 ;       |stack_data:stack|                           ; 29 (29)             ; 0 (0)                     ; 131104      ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|stack_data:stack                                                                                                                                                              ; stack_data               ; work         ;
 ;          |altsyncram:STACK_rtl_0|                  ; 0 (0)               ; 0 (0)                     ; 131104      ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|stack_data:stack|altsyncram:STACK_rtl_0                                                                                                                                       ; altsyncram               ; work         ;
 ;             |altsyncram_g9d1:auto_generated|       ; 0 (0)               ; 0 (0)                     ; 131104      ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|cpu:cpu_core|stack_data:stack|altsyncram:STACK_rtl_0|altsyncram_g9d1:auto_generated                                                                                                        ; altsyncram_g9d1          ; work         ;
 ;    |oneshot:pulser1|                               ; 2 (2)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|oneshot:pulser1                                                                                                                                                                            ; oneshot                  ; work         ;
 ;    |oneshot:pulser2|                               ; 2 (2)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|oneshot:pulser2                                                                                                                                                                            ; oneshot                  ; work         ;
-;    |temporizador:temp|                             ; 21 (21)             ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|temporizador:temp                                                                                                                                                                          ; temporizador             ; work         ;
+;    |temporizador:temp|                             ; 23 (23)             ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |loop32i|temporizador:temp                                                                                                                                                                          ; temporizador             ; work         ;
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -506,6 +519,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; cpu:cpu_core|ram_data:ram|altsyncram:RAM_rtl_0|altsyncram_mcd1:auto_generated|ALTSYNCRAM                                                                                      ; AUTO ; Simple Dual Port ; 16384        ; 32           ; 16384        ; 32           ; 524288  ; None                                           ;
 ; cpu:cpu_core|ram_inst:ramInstrucoes|altsyncram:RAM_INST_rtl_0|altsyncram_66h1:auto_generated|ALTSYNCRAM                                                                       ; AUTO ; Simple Dual Port ; 4096         ; 32           ; 4096         ; 32           ; 131072  ; None                                           ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 256          ; 8            ; 256          ; 8            ; 2048    ; None                                           ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 256          ; 8            ; 256          ; 8            ; 2048    ; None                                           ;
 ; cpu:cpu_core|stack_data:stack|altsyncram:STACK_rtl_0|altsyncram_g9d1:auto_generated|ALTSYNCRAM                                                                                ; AUTO ; Simple Dual Port ; 4097         ; 32           ; 4097         ; 32           ; 131104  ; None                                           ;
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------------------------------------------------+
 
@@ -601,6 +615,24 @@ Encoding Type:  One-Hot
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[3] ; yes                                                              ; yes                                        ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[0] ; yes                                                              ; yes                                        ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[1] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[8] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[6] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[7] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[4] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[5] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[2] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[3] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[0] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[1] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[8] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[6] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[7] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[4] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[5] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[2] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[3] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[0] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[1] ; yes                                                              ; yes                                        ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[8] ; yes                                                              ; yes                                        ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[6] ; yes                                                              ; yes                                        ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[7] ; yes                                                              ; yes                                        ;
@@ -610,132 +642,83 @@ Encoding Type:  One-Hot
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[3] ; yes                                                              ; yes                                        ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[0] ; yes                                                              ; yes                                        ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[1] ; yes                                                              ; yes                                        ;
-; Total number of protected registers is 36                                                                                                                                                             ;                                                                  ;                                            ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[8] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[6] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[7] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[4] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[5] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[2] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[3] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[0] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[1] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[8] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[6] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[7] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[4] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[5] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[2] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[3] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[0] ; yes                                                              ; yes                                        ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[1] ; yes                                                              ; yes                                        ;
+; Total number of protected registers is 72                                                                                                                                                             ;                                                                  ;                                            ;
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                                                                                                                                                                                            ;
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-; Register name                                                                                                                                                                                            ; Reason for Removal                                                                                                 ;
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-; cpu:cpu_core|registers:regs|registers[0][0]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][1]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][2]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][3]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][4]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][5]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][6]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][7]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][8]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][9]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][10]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][11]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][12]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][13]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][14]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][15]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][16]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][17]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][18]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][19]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][20]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][21]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][22]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][23]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][24]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][25]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][26]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][27]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][28]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][29]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][30]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|registers:regs|registers[0][31]                                                                                                                                                             ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|tx_start                                                                                                                                 ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_transmitter:tx|BaudGeneratorAcc[0]                                                                                                 ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_transmitter:tx|state[0..3]                                                                                                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_transmitter:tx|BaudGeneratorAcc[1..16]                                                                                             ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[0..8]                                          ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[0..8]                                                  ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[0..8]                                                  ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe17a[0..8] ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_1ol:ws_dgrp|dffpipe_id9:dffpipe16|dffe18a[0..8] ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe14a[0..8] ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|alt_synch_pipe_0ol:rs_dgwp|dffpipe_hd9:dffpipe13|dffe15a[0..8] ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a0                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a1                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a2                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a3                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a4                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a5                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a6                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a7                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a8                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|parity9                            ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|sub_parity10a[0..2]                ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a0                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a1                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a2                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a3                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a4                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a5                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a6                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a7                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a8                         ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|parity6                            ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|sub_parity7a[0..2]                 ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|LCD_RW_INT                                                                                                                                                     ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx|Baud8GeneratorAcc[1..3]                                                                                                ; Merged with cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx|Baud8GeneratorAcc[0] ;
-; cpu:cpu_core|bios:biosInstrucoes|out[15]                                                                                                                                                                 ; Merged with cpu:cpu_core|bios:biosInstrucoes|out[10]                                                               ;
-; cpu:cpu_core|bios:biosInstrucoes|out[9]                                                                                                                                                                  ; Merged with cpu:cpu_core|bios:biosInstrucoes|out[11]                                                               ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx|Baud8GeneratorAcc[0]                                                                                                   ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|bios:biosInstrucoes|out[30]                                                                                                                                                                 ; Stuck at GND due to stuck port data_in                                                                             ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|next_command~2                                                                                                                                                 ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|next_command~3                                                                                                                                                 ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|next_command~4                                                                                                                                                 ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|next_command~5                                                                                                                                                 ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state~14                                                                                                                                                       ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state~15                                                                                                                                                       ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state~16                                                                                                                                                       ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state~17                                                                                                                                                       ; Lost fanout                                                                                                        ;
-; cpu:cpu_core|program_counter:PC|nextPC[0]                                                                                                                                                                ; Merged with cpu:cpu_core|program_counter:PC|PCout[0]                                                               ;
-; Total Number of Removed Registers = 160                                                                                                                                                                  ;                                                                                                                    ;
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                                                                                                                                                                                                                          ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Register name                                                                                                                                                ; Reason for Removal ; Registers Removed due to This Register                                                                                                                                           ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[7] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[7],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a7 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[6] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[6],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a6 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[5] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[5],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a5 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[4] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[4],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a4 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[3] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[3],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a3 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[2] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[2],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a2 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[1] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[1],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a1 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[0] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[0],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a0 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|delayed_wrptr_g[8] ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|wrptr_g[8],                            ;
-;                                                                                                                                                              ;                    ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a8 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[1]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a1 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[0]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a0 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[2]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a2 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[3]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a3 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[4]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a4 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[5]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a5 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[6]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a6 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[7]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a7 ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|rdptr_g[8]         ; Lost Fanouts       ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a8 ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                                                                                             ;
++-----------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+; Register name                                                                                             ; Reason for Removal                                                                                                 ;
++-----------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+; cpu:cpu_core|registers:regs|registers[0][0]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][1]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][2]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][3]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][4]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][5]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][6]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][7]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][8]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][9]                                                               ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][10]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][11]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][12]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][13]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][14]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][15]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][16]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][17]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][18]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][19]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][20]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][21]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][22]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][23]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][24]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][25]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][26]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][27]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][28]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][29]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][30]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|registers:regs|registers[0][31]                                                              ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|LCD_RW_INT                                                      ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx|Baud8GeneratorAcc[1..3] ; Merged with cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx|Baud8GeneratorAcc[0] ;
+; cpu:cpu_core|bios:biosInstrucoes|out[15]                                                                  ; Merged with cpu:cpu_core|bios:biosInstrucoes|out[10]                                                               ;
+; cpu:cpu_core|bios:biosInstrucoes|out[9]                                                                   ; Merged with cpu:cpu_core|bios:biosInstrucoes|out[11]                                                               ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx|Baud8GeneratorAcc[0]    ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_transmitter:tx|BaudGeneratorAcc[0]  ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|bios:biosInstrucoes|out[30]                                                                  ; Stuck at GND due to stuck port data_in                                                                             ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|next_command~2                                                  ; Lost fanout                                                                                                        ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|next_command~3                                                  ; Lost fanout                                                                                                        ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|next_command~4                                                  ; Lost fanout                                                                                                        ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|next_command~5                                                  ; Lost fanout                                                                                                        ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state~14                                                        ; Lost fanout                                                                                                        ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state~15                                                        ; Lost fanout                                                                                                        ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state~16                                                        ; Lost fanout                                                                                                        ;
+; cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|state~17                                                        ; Lost fanout                                                                                                        ;
+; cpu:cpu_core|program_counter:PC|nextPC[0]                                                                 ; Merged with cpu:cpu_core|program_counter:PC|PCout[0]                                                               ;
+; Total Number of Removed Registers = 50                                                                    ;                                                                                                                    ;
++-----------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -743,12 +726,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1696  ;
+; Total registers                              ; 1817  ;
 ; Number of registers using Synchronous Clear  ; 51    ;
 ; Number of registers using Synchronous Load   ; 3     ;
-; Number of registers using Asynchronous Clear ; 124   ;
+; Number of registers using Asynchronous Clear ; 34    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1314  ;
+; Number of registers using Clock Enable       ; 1365  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -759,7 +742,8 @@ Encoding Type:  One-Hot
 ; Inverted Register                                                                                                                                                                ; Fan out ;
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a0 ; 7       ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a0 ; 6       ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|counter5a0 ; 7       ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a0 ; 7       ;
 ; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|parity6    ; 4       ;
 ; cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[21][5]                                                                                                                                       ; 2       ;
 ; cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[25][5]                                                                                                                                       ; 2       ;
@@ -793,8 +777,11 @@ Encoding Type:  One-Hot
 ; cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[13][5]                                                                                                                                       ; 2       ;
 ; cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[12][5]                                                                                                                                       ; 2       ;
 ; cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[15][5]                                                                                                                                       ; 2       ;
-; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|parity9    ; 4       ;
-; Total number of inverted registers = 36                                                                                                                                          ;         ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|counter8a0 ; 8       ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_t57:rdptr_g1p|parity6    ; 4       ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_rx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|parity9    ; 5       ;
+; cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|a_graycounter_pjc:wrptr_g1p|parity9    ; 6       ;
+; Total number of inverted registers = 40                                                                                                                                          ;         ;
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
@@ -881,73 +868,73 @@ Encoding Type:  One-Hot
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------+
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[0][0]                                                        ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[1][4]                                                        ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[2][7]                                                        ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[3][7]                                                        ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[4][2]                                                        ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[5][3]                                                        ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[6][7]                                                        ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[7][1]                                                        ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[8][6]                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[1][1]                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[2][2]                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[3][4]                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[4][3]                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[5][2]                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[6][4]                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[7][3]                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[8][2]                                                        ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[9][1]                                                        ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[10][3]                                                       ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[11][0]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[12][1]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[13][2]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[14][2]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[15][0]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[16][2]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[17][0]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[18][0]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[19][0]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[20][6]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[21][4]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[22][7]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[12][6]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[13][3]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[14][1]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[15][1]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[16][1]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[17][3]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[18][1]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[19][2]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[20][4]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[21][3]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[22][3]                                                       ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[23][6]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[24][2]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[24][7]                                                       ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[25][4]                                                       ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[26][1]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[27][1]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[27][0]                                                       ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[28][1]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[29][7]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[30][7]                                                       ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[31][0]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[29][2]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[30][4]                                                       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|LCD_RAM[31][1]                                                       ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx|bit_spacing[0] ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|bios_control:biosControl|resetPC                                                    ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|interruptor:moduleIntr|count[6]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[1][8]                                                      ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[2][19]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[3][1]                                                      ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[4][25]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[5][4]                                                      ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[6][25]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[7][0]                                                      ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[8][25]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[9][14]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[10][29]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[11][5]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[12][1]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[13][15]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[14][14]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[15][1]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[16][7]                                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|interruptor:moduleIntr|count[4]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[1][22]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[2][16]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[3][13]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[4][20]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[5][11]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[6][21]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[7][9]                                                      ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[8][2]                                                      ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[9][0]                                                      ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[10][10]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[11][0]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[12][9]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[13][21]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[14][20]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[15][20]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[16][19]                                                    ;
 ; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[17][2]                                                     ;
 ; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[18][13]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[19][28]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[20][6]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[21][27]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[22][3]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[23][29]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[24][26]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[25][31]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[26][23]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[27][18]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[28][18]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[29][5]                                                     ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[30][31]                                                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[31][10]                                                    ;
-; 32:1               ; 8 bits    ; 168 LEs       ; 168 LEs              ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|dataRead[4]                                                          ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|DATA_BUS_VALUE[4]                                      ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[19][16]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[20][4]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[21][9]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[22][15]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[23][8]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[24][4]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[25][20]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[26][24]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[27][31]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[28][0]                                                     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[29][30]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[30][30]                                                    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|registers:regs|registers[31][23]                                                    ;
+; 32:1               ; 8 bits    ; 168 LEs       ; 168 LEs              ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd_ram:LCDram|dataRead[2]                                                          ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |loop32i|cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|DATA_BUS_VALUE[5]                                      ;
 ; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |loop32i|cpu:cpu_core|interruptor:moduleIntr|count                                                        ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |loop32i|cpu:cpu_core|registers:regs|registers                                                            ;
 ; 3:1                ; 26 bits   ; 52 LEs        ; 52 LEs               ; 0 LEs                  ; No         ; |loop32i|cpu:cpu_core|bios_control:biosControl|out[6]                                                     ;
@@ -961,7 +948,7 @@ Encoding Type:  One-Hot
 ; 8:1                ; 5 bits    ; 25 LEs        ; 20 LEs               ; 5 LEs                  ; No         ; |loop32i|cpu:cpu_core|mux_regs:muxRegs|Mux3                                                               ;
 ; 32:1               ; 32 bits   ; 672 LEs       ; 640 LEs              ; 32 LEs                 ; No         ; |loop32i|cpu:cpu_core|registers:regs|Mux60                                                                ;
 ; 32:1               ; 32 bits   ; 672 LEs       ; 640 LEs              ; 32 LEs                 ; No         ; |loop32i|cpu:cpu_core|registers:regs|Mux69                                                                ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 640 LEs              ; 32 LEs                 ; No         ; |loop32i|cpu:cpu_core|registers:regs|Mux111                                                               ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 640 LEs              ; 32 LEs                 ; No         ; |loop32i|cpu:cpu_core|registers:regs|Mux103                                                               ;
 ; 9:1                ; 6 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; No         ; |loop32i|cpu:cpu_core|program_counter:PC|PC                                                               ;
 ; 9:1                ; 6 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; No         ; |loop32i|cpu:cpu_core|program_counter:PC|PC                                                               ;
 ; 9:1                ; 20 bits   ; 120 LEs       ; 80 LEs               ; 40 LEs                 ; No         ; |loop32i|cpu:cpu_core|program_counter:PC|PC                                                               ;
@@ -2258,13 +2245,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0"                                           ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                  ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; wrfull ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0"                                            ;
++---------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                                                  ;
++---------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; reset_n ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; wrfull  ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -2272,7 +2260,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port           ; Type   ; Severity ; Details                                                                             ;
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
-; UART_TX        ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; data_available ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
 
@@ -2340,32 +2327,31 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 100                         ;
-; cycloneiii_ff         ; 1696                        ;
-;     CLR               ; 76                          ;
+; cycloneiii_ff         ; 1817                        ;
+;     CLR               ; 14                          ;
 ;     CLR SCLR          ; 20                          ;
-;     ENA               ; 1284                        ;
-;     ENA CLR           ; 28                          ;
+;     ENA               ; 1363                        ;
 ;     ENA SLD           ; 2                           ;
 ;     SCLR              ; 31                          ;
 ;     SLD               ; 1                           ;
-;     plain             ; 254                         ;
+;     plain             ; 386                         ;
 ; cycloneiii_io_obuf    ; 8                           ;
-; cycloneiii_lcell_comb ; 8733                        ;
-;     arith             ; 1464                        ;
-;         2 data inputs ; 165                         ;
+; cycloneiii_lcell_comb ; 8821                        ;
+;     arith             ; 1479                        ;
+;         2 data inputs ; 180                         ;
 ;         3 data inputs ; 1299                        ;
-;     normal            ; 7269                        ;
-;         0 data inputs ; 63                          ;
-;         1 data inputs ; 29                          ;
-;         2 data inputs ; 397                         ;
-;         3 data inputs ; 544                         ;
-;         4 data inputs ; 6236                        ;
+;     normal            ; 7342                        ;
+;         0 data inputs ; 64                          ;
+;         1 data inputs ; 32                          ;
+;         2 data inputs ; 411                         ;
+;         3 data inputs ; 551                         ;
+;         4 data inputs ; 6284                        ;
 ; cycloneiii_mac_mult   ; 3                           ;
 ; cycloneiii_mac_out    ; 3                           ;
-; cycloneiii_ram_block  ; 293                         ;
+; cycloneiii_ram_block  ; 301                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 136.50                      ;
-; Average LUT depth     ; 77.52                       ;
+; Average LUT depth     ; 76.15                       ;
 +-----------------------+-----------------------------+
 
 
@@ -2374,7 +2360,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:48     ;
+; Top            ; 00:00:50     ;
 +----------------+--------------+
 
 
@@ -2384,10 +2370,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Jun 13 20:30:48 2019
+    Info: Processing started: Sat Jun 29 18:58:37 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU_Project -c CPU_Project
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file modulos/UART/timer.v
+    Info (12023): Found entity 1: timer File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/timer.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file modulos/UART/send_control.v
     Info (12023): Found entity 1: send_control File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/send_control.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file modulos/UART/recv_control.v
@@ -2542,9 +2530,9 @@ Info (12128): Elaborating entity "LCD_display_string" for hierarchy "cpu:cpu_cor
 Info (12128): Elaborating entity "lcd_ram" for hierarchy "cpu:cpu_core|lcd_ram:LCDram" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 102
 Info (12128): Elaborating entity "interruptor" for hierarchy "cpu:cpu_core|interruptor:moduleIntr" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 104
 Info (12128): Elaborating entity "lcd_control" for hierarchy "cpu:cpu_core|lcd_control:LCDcontrol" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 108
-Info (12128): Elaborating entity "serial_communication" for hierarchy "cpu:cpu_core|serial_communication:SerialComm" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 110
-Warning (10230): Verilog HDL assignment warning at serial_communication.v(89): truncated value with size 32 to match size of target (8) File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/serial_communication.v Line: 89
-Warning (10230): Verilog HDL assignment warning at serial_communication.v(93): truncated value with size 32 to match size of target (1) File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/serial_communication.v Line: 93
+Info (12128): Elaborating entity "serial_communication" for hierarchy "cpu:cpu_core|serial_communication:SerialComm" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 111
+Warning (10230): Verilog HDL assignment warning at serial_communication.v(93): truncated value with size 32 to match size of target (8) File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/serial_communication.v Line: 93
+Warning (10230): Verilog HDL assignment warning at serial_communication.v(97): truncated value with size 32 to match size of target (1) File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/serial_communication.v Line: 97
 Info (12128): Elaborating entity "uart_control" for hierarchy "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/serial_communication.v Line: 65
 Info (12128): Elaborating entity "uart_fifo" for hierarchy "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/uart_control.v Line: 63
 Info (12128): Elaborating entity "dcfifo" for hierarchy "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/uart_fifo.v Line: 88
@@ -2600,18 +2588,8 @@ Warning (10230): Verilog HDL assignment warning at async_transmitter.v(21): trun
 Info (12128): Elaborating entity "async_receiver" for hierarchy "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|async_receiver:rx" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/uart_control.v Line: 152
 Warning (10036): Verilog HDL or VHDL warning at async_receiver.v(85): object "RxD_data_error" assigned a value but never read File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/async_receiver.v Line: 85
 Warning (10230): Verilog HDL assignment warning at async_receiver.v(21): truncated value with size 32 to match size of target (17) File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/UART/async_receiver.v Line: 21
-Info (12128): Elaborating entity "send_control" for hierarchy "cpu:cpu_core|send_control:sendControl" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 112
-Info (12128): Elaborating entity "recv_control" for hierarchy "cpu:cpu_core|recv_control:recvControl" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 114
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|q_b[0]" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_fl41.tdf Line: 40
-        Warning (14320): Synthesized away node "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|q_b[1]" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_fl41.tdf Line: 70
-        Warning (14320): Synthesized away node "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|q_b[2]" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_fl41.tdf Line: 100
-        Warning (14320): Synthesized away node "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|q_b[3]" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_fl41.tdf Line: 130
-        Warning (14320): Synthesized away node "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|q_b[4]" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_fl41.tdf Line: 160
-        Warning (14320): Synthesized away node "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|q_b[5]" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_fl41.tdf Line: 190
-        Warning (14320): Synthesized away node "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|q_b[6]" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_fl41.tdf Line: 220
-        Warning (14320): Synthesized away node "cpu:cpu_core|serial_communication:SerialComm|uart_control:UART0|uart_fifo:uart_fifo_tx|dcfifo:dcfifo_component|dcfifo_npi1:auto_generated|altsyncram_fl41:fifo_ram|q_b[7]" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_fl41.tdf Line: 250
+Info (12128): Elaborating entity "send_control" for hierarchy "cpu:cpu_core|send_control:sendControl" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 113
+Info (12128): Elaborating entity "recv_control" for hierarchy "cpu:cpu_core|recv_control:recvControl" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/cpu.v Line: 115
 Warning (276020): Inferred RAM node "cpu:cpu_core|ram_inst:ramInstrucoes|RAM_INST_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
 Warning (276027): Inferred dual-clock RAM node "cpu:cpu_core|ram_data:ram|RAM_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
 Warning (276027): Inferred dual-clock RAM node "cpu:cpu_core|stack_data:stack|STACK_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
@@ -2771,6 +2749,14 @@ Info (12133): Instantiated megafunction "cpu:cpu_core|hard_disk:hd|altsyncram:HD
     Info (12134): Parameter "INIT_FILE" = "db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_mli1.tdf
     Info (12023): Found entity 1: altsyncram_mli1 File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/altsyncram_mli1.tdf Line: 33
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/CPU_Project.ram0_hard_disk_417ebac3.hdl.mif" contains "don't care" values -- overwriting them with 0s File: /opt/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_msa.tdf
     Info (12023): Found entity 1: decode_msa File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/decode_msa.tdf Line: 22
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_f8a.tdf
@@ -2832,8 +2818,6 @@ Warning (14284): Synthesized away the following node(s):
 Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (13014): Ignored 84 buffer(s)
     Info (13019): Ignored 84 SOFT buffer(s)
-Info (13000): Registers with preset signals will power-up high File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/db/a_graycounter_t57.tdf Line: 32
-Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13009): TRI or OPNDRN buffers permanently enabled
     Warning (13010): Node "cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|DATA_BUS[0]~synth" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/LCD/LCD_Display.v Line: 43
     Warning (13010): Node "cpu:cpu_core|lcd:LCDmodule|LCD_Display:u1|DATA_BUS[1]~synth" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/modulos/LCD/LCD_Display.v Line: 43
@@ -2854,24 +2838,22 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LCD_BLON" is stuck at VCC File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/loop32i.v Line: 9
     Warning (13410): Pin "LCD_RW" is stuck at GND File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/loop32i.v Line: 9
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 119 registers lost all their fanouts during netlist optimizations.
+Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/output_files/CPU_Project.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "UART_TX" File: /home/igor/Dropbox/Documentos/UNIFESP/ECOMP/9o_semestre/Lab Redes/CPU/aoc_cpu_beta/loop32i.v Line: 12
-Info (21057): Implemented 9515 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 26 input pins
-    Info (21059): Implemented 66 output pins
+Info (21057): Implemented 9683 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 25 input pins
+    Info (21059): Implemented 67 output pins
     Info (21060): Implemented 8 bidirectional pins
-    Info (21061): Implemented 9116 logic cells
-    Info (21064): Implemented 293 RAM segments
+    Info (21061): Implemented 9276 logic cells
+    Info (21064): Implemented 301 RAM segments
     Info (21062): Implemented 6 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 61 warnings
-    Info: Peak virtual memory: 1089 megabytes
-    Info: Processing ended: Thu Jun 13 20:32:02 2019
-    Info: Elapsed time: 00:01:14
-    Info: Total CPU time (on all processors): 00:01:41
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 57 warnings
+    Info: Peak virtual memory: 1130 megabytes
+    Info: Processing ended: Sat Jun 29 19:02:41 2019
+    Info: Elapsed time: 00:04:04
+    Info: Total CPU time (on all processors): 00:04:30
 
 
 +------------------------------------------+

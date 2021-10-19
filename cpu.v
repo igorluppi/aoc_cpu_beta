@@ -19,7 +19,8 @@ module cpu(clock, clock_max, reset, button_in, button_out, switchSide, switchUns
 	output in_on, out_on;
 	output isHDOP;
 	
-	input UART_RX, UART_TX;
+	input UART_RX;
+	output UART_TX;
 	input input_sig_send, input_sig_recv;
 	output output_sig_send, output_sig_recv;
 	
@@ -31,7 +32,7 @@ module cpu(clock, clock_max, reset, button_in, button_out, switchSide, switchUns
 	wire intr;
 	
 	wire [7:0]  dataUARTOut;
-	wire receive_flag, send_flag, data_available;
+	wire receive_flag, send_flag, data_available, snd_extend;
 	
 	wire [31:0] PCin, PCout, nextPC;
 	wire [31:0] instrucao, instrucaoMEM, instrucaoBIOS, instrucaoMEM_INTR;
@@ -49,7 +50,6 @@ module cpu(clock, clock_max, reset, button_in, button_out, switchSide, switchUns
 	wire [31:0] switchesOutExt;
 	wire [31:0] switchesExt;
 	wire [31:0] binaryOut;
-	
 	
 	pc_reset PCReset(reset, biosReset, resetPC);
 	
@@ -107,8 +107,9 @@ module cpu(clock, clock_max, reset, button_in, button_out, switchSide, switchUns
 	
 	lcd_control LCDcontrol(instrucao[25:21], regs1[4:0], instrucao[7:0], regs2[7:0], lcdPosWrite, dataLcdWrite, instrucao[12:11]);
 	
-	serial_communication SerialComm(clock_max, reset, UART_RX, UART_TX, regs1[7:0], dataUARTOut, receive_flag, input_sig_send/*send_flag*/, data_available);
-	
+	//serial_communication SerialComm(clock_max, reset, UART_RX, UART_TX, regs1[7:0], dataUARTOut, receive_flag, input_sig_send/*send_flag*/, data_available);
+	serial_communication SerialComm(clock_max, reset, UART_RX, UART_TX, regs1[7:0], dataUARTOut, receive_flag, send_flag, data_available);
+   
 	send_control sendControl(clock, instrucao[31:26], input_sig_send, output_sig_send, send_flag);
 	
 	recv_control recvControl(clock, instrucao[31:26], input_sig_recv, output_sig_recv, receive_flag);

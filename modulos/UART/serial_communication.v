@@ -48,7 +48,7 @@ reg	         cnt;
 uart_control UART0(
 
 	.clk(CLOCK_50),
-	.reset_n(~reset),
+	.reset_n(1'b1),
 	// tx
 	.write(write),
 	.writedata(uart_data_write),
@@ -74,8 +74,12 @@ begin
 end
 
 assign  data_available = (read & (~rdempty)); // indica se o dado esta disponivel no canal de comunicacao.
-//assign  write = (read & (~rdempty)) & send_flag; // indica quando pode-se escrever o dado no canal de comunicacao.
-assign  write =  send_flag; // indica quando pode-se escrever o dado no canal de comunicacao.
+assign  write = out_flag; // indica quando pode-se escrever o dado no canal de comunicacao.
+//assign  write =  ou1; // indica quando pode-se escrever o dado no canal de comunicacao.
+wire out_flag;
+oneshot pulsoSend(CLOCK_50, send_flag, out_flag);
+
+
 
 always@(posedge CLOCK_50)
 begin

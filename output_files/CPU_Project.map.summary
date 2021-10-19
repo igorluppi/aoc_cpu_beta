@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Thu Jun 13 20:32:02 2019
+Analysis & Synthesis Status : Successful - Sat Jun 29 19:02:40 2019
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : CPU_Project
 Top-level Entity Name : loop32i
 Family : Cyclone IV E
-Total logic elements : 9,043
-    Total combinational functions : 8,723
-    Dedicated logic registers : 1,696
-Total registers : 1696
+Total logic elements : 9,203
+    Total combinational functions : 8,811
+    Dedicated logic registers : 1,817
+Total registers : 1817
 Total pins : 100
 Total virtual pins : 0
-Total memory bits : 1,851,936
+Total memory bits : 1,853,984
 Embedded Multiplier 9-bit elements : 6
 Total PLLs : 0

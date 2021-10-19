@@ -254,7 +254,7 @@ HEX7[4]                      : AF17      : output : 2.5 V             :         
 HEX5[5]                      : AF18      : output : 2.5 V             :         : 4         : Y              
 HEX4[5]                      : AF19      : output : 2.5 V             :         : 4         : Y              
 output_sig_recv              : AF20      : output : 2.5 V             :         : 4         : Y              
-UART_TX                      : AF21      : input  : 2.5 V             :         : 4         : Y              
+UART_TX                      : AF21      : output : 2.5 V             :         : 4         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF22      :        :                   :         : 4         :                
 HEX3[5]                      : AF23      : output : 2.5 V             :         : 4         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF24      :        :                   :         : 4         :                

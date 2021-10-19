@@ -9,7 +9,8 @@ module loop32i(clock, n_reset, n_button_in, n_button_out, switchSide, switchUnsi
 	output LCD_ON,LCD_BLON,LCD_RW,LCD_EN,LCD_RS;
 	inout [7:0] LCD_DATA;
 	
-	input UART_RX, UART_TX;
+	input UART_RX;
+	output UART_TX;
 	input input_sig_send, input_sig_recv;
 	output output_sig_send, output_sig_recv;
 	
@@ -21,7 +22,6 @@ module loop32i(clock, n_reset, n_button_in, n_button_out, switchSide, switchUnsi
 	assign button_in_db = ~n_button_in_db;
 	assign button_out_db = ~n_button_out_db;
 	assign reset = ~n_reset;
-	
 	
 	DeBounce debounce1(clock, n_reset, n_button_in, n_button_in_db);
 	DeBounce debounce2(clock, n_reset, n_button_out, n_button_out_db);
